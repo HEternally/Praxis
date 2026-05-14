@@ -116,17 +116,21 @@ Six checks: anti-patterns + RESOLVER existence, SKILL.md structure, description 
 ## Install
 
 ```bash
-# Marketplace install (when wired up)
-/plugin install praxis
-
-# Until then, clone locally as a plugin
-git clone https://github.com/HEternally/Praxis.git ~/.claude/plugins/praxis
+/plugin marketplace add HEternally/Praxis
+/plugin install praxis@praxis
 ```
 
-Or use as a plugin directory directly:
+To pull in later updates:
 
 ```bash
-claude --plugin-dir /path/to/praxis
+/plugin marketplace update praxis
+```
+
+Or work on it locally as a plugin directory:
+
+```bash
+git clone https://github.com/HEternally/Praxis.git
+claude --plugin-dir ./Praxis
 ```
 
 ## Acknowledgments

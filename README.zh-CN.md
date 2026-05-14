@@ -116,17 +116,21 @@ bash scripts/verify-skills.sh
 ## 安装
 
 ```bash
-# Marketplace 安装 (待支持)
-/plugin install praxis
-
-# 当前: 手动 clone 作为 plugin
-git clone https://github.com/HEternally/Praxis.git ~/.claude/plugins/praxis
+/plugin marketplace add HEternally/Praxis
+/plugin install praxis@praxis
 ```
 
-或直接以 plugin 目录方式启动:
+后续拉取更新:
 
 ```bash
-claude --plugin-dir /path/to/praxis
+/plugin marketplace update praxis
+```
+
+或本地以 plugin 目录方式开发:
+
+```bash
+git clone https://github.com/HEternally/Praxis.git
+claude --plugin-dir ./Praxis
 ```
 
 ## 致谢
