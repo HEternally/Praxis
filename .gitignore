@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings (per-machine)
+.claude/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# OS
+Thumbs.db

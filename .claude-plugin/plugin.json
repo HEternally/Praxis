@@ -1,0 +1,10 @@
+{
+  "name": "praxis",
+  "version": "0.2.0",
+  "description": "Nine skills that turn raw model capability into precision: clear goals, named constraints, output contracts. Process is left to the model.",
+  "author": {
+    "name": "qianyu"
+  },
+  "keywords": ["skills", "engineering", "writing", "learning"],
+  "license": "MIT"
+}
