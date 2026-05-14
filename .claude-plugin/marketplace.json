@@ -4,7 +4,10 @@
   "plugins": [
     {
       "name": "praxis",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "HEternally/Praxis"
+      },
       "description": "Nine skills that turn raw model capability into precision."
     }
   ]
