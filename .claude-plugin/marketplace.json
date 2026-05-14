@@ -1,0 +1,11 @@
+{
+  "name": "praxis",
+  "owner": { "name": "qianyu" },
+  "plugins": [
+    {
+      "name": "praxis",
+      "source": ".",
+      "description": "Nine skills that turn raw model capability into precision."
+    }
+  ]
+}
